@@ -4,12 +4,15 @@ using XAuth_XForms.Views;
 using XAuth_XForms.Services;
 using Xamarin.Forms;
 
+
 namespace XAuth_XForms
 {
 	public partial class App : Application
 	{
 		public static bool UseMockDataStore = true;
 		public static string AzureMobileAppUrl = "https://[CONFIGURE-THIS-URL].azurewebsites.net";
+
+        public static Account 
 
 		public App ()
 		{
